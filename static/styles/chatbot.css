@@ -1,0 +1,67 @@
+.chat-container {
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 800px;
+   
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 200px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button2 {
+    padding: 10px 20px;
+    background-color: #3C4043;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button2:hover {
+    background-color: #1f2325;
+    color: #ffffff;
+}
+
+.chat-image {
+    display: inline-block;
+}
+
+.chat-title {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bot-image {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    margin-right: 10px; /* Add some margin to separate the image from the header text */
+     /* Align the image vertically with the header text */  
+}
+
+.bot-title {  
+    color: rgb(87, 85, 85);  
+}
+
+.chatbot-message {
+    color:#3C4043;
+    margin-bottom: 10px;
+}
